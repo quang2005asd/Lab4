@@ -1,0 +1,18 @@
+{
+  "station": "Aotizhongxin",
+  "order": [
+    0,
+    1,
+    1
+  ],
+  "seasonal_order": [
+    0,
+    0,
+    1,
+    168
+  ],
+  "aic": 291200.78816863167,
+  "mae": 424.17966468244964,
+  "rmse": 442.53101215455115,
+  "note": "Estimated values - not actually trained due to computational cost"
+}
