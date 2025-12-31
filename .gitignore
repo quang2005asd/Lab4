@@ -23,17 +23,20 @@ var/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data files - uncomment if you want to ignore data files
-# data/raw/
-data/processed/
+# Data files (large files)
+data/raw/
+data/processed/*.parquet
+data/processed/*.csv
 
-# Model files - uncomment if you want to ignore model files
-# models/
+# Model files (very large, can be regenerated)
+*.pkl
+*.joblib
 
 # Virtual Environment
 venv/
 env/
 ENV/
+.venv/
 
 # IDE files
 .idea/
@@ -41,7 +44,10 @@ ENV/
 *.swp
 *.swo
 
-# data artifacts
-data/processed/
-*.pkl
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary notebook data folders
+notebooks/data/
 
